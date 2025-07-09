@@ -18,7 +18,7 @@ export const HardwareLibrary = () => {
             Open Hardware Library
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            FORSEE comes bundled with hardware implementations of commonly used neural processing Modules
+            FORESEE comes bundled with hardware implementations of commonly used neural processing Modules
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export const HardwareLibrary = () => {
             <h3 className="text-2xl font-bold text-white mb-4">Community Contribution Welcome</h3>
             <p className="text-gray-300 text-lg">
               The library is open for community contribution—help us grow the ecosystem. 
-              We welcome your modules, improvements, and feedback to make FORSEE even better.
+              We welcome your modules, improvements, and feedback to make FORESEE even better.
             </p>
           </div>
         </div>

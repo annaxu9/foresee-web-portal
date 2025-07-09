@@ -1,8 +1,8 @@
-# FORSEE Web Portal
+# FORESEE Web Portal
 
 ## Project Overview
 
-A modern web portal for the FORSEE application, built with React and TypeScript.
+A modern web portal for the FORESEE application, built with React and TypeScript.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ Follow these steps:
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory
-cd forsee-web-portal
+cd foresee-web-portal
 
 # Step 3: Install the necessary dependencies
 npm i

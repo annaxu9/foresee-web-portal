@@ -10,7 +10,7 @@ export const Footer = () => {
             Ready to Explore Processing On-BCI?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Download FORSEE today and redefine how neural signal pipelines are
+            Download FORESEE today and redefine how neural signal pipelines are
             developed.
           </p>
 
@@ -45,14 +45,14 @@ export const Footer = () => {
               📄 License & Citation
             </h3>
             <p className="text-gray-300 mb-4">
-              FORSEE is open-source software. Please cite our work in your
+              FORESEE is open-source software. Please cite our work in your
               research:
             </p>
             <div className="bg-gray-800/50 rounded-lg p-4 font-mono text-sm text-gray-300">
-              @article{"{forsee2024,"}
+              @article{"{foresee2024,"}
               <br />
               {
-                "  title={FORSEE: A Framework for Neural Signal Processing Pipeline Development},"
+                "  title={FORESEE: A Framework for Neural Signal Processing Pipeline Development},"
               }
               <br />
               {"  author={[Authors]},"}
@@ -133,7 +133,7 @@ export const Footer = () => {
         {/* Final Message */}
         <div className="text-center border-t border-gray-700 pt-8">
           <p className="text-gray-300 text-lg mb-4">
-            FORSEE is open-source and developed to empower researchers and
+            FORESEE is open-source and developed to empower researchers and
             engineers in the BCI space.
           </p>
           <p className="text-gray-400">

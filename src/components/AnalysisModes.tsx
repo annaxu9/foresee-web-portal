@@ -29,7 +29,7 @@ export const AnalysisModes = () => {
             Analysis Modes
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            FORSEE supports three robust types of performance analyses
+            FORESEE supports three robust types of performance analyses
           </p>
         </div>
 

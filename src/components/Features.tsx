@@ -23,7 +23,7 @@ export const Features = () => {
     },
     {
       title: "Flexible User Interface",
-      description: "Use FORSEE via an intuitive GUI or command line.",
+      description: "Use FORESEE via an intuitive GUI or command line.",
       icon: "💻",
     },
   ];
@@ -36,7 +36,7 @@ export const Features = () => {
             Key Features
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Discover what makes FORSEE unique and powerful for BCI development
+            Discover what makes FORESEE unique and powerful for BCI development
           </p>
         </div>
 

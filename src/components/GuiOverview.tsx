@@ -35,7 +35,7 @@ export const GuiOverview = () => {
             Graphical User Interface (GUI)
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            The FORSEE GUI simplifies the user experience with three key views
+            The FORESEE GUI simplifies the user experience with three key views
           </p>
         </div>
 
