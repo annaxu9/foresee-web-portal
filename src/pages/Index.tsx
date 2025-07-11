@@ -5,7 +5,7 @@ import { AnalysisModes } from "@/components/AnalysisModes";
 import { HardwareLibrary } from "@/components/HardwareLibrary";
 import { UseCases } from "@/components/UseCases";
 import { Footer } from "@/components/Footer";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@/components/NavBar";
 import { TeamSection } from "@/components/TeamSection";
 
 const Index = () => {

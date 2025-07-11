@@ -42,7 +42,10 @@ export const Navbar = () => {
             <Button
               variant="outline"
               size="sm"
-              className="border-gray-400 text-gray-300 hover:bg-gray-800"
+              className="border-gray-400 text-gray-600 hover:bg-gray-600 hover:text-gray-400"
+              onClick={() =>
+                window.open("https://github.com/bci-foresee/foresee", "_blank")
+              }
             >
               GitHub
             </Button>
@@ -112,7 +115,13 @@ export const Navbar = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="w-full border-gray-400 text-gray-300 hover:bg-gray-800"
+                  className="w-full border-gray-400 text-gray-600 hover:bg-gray-300"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/bci-foresee/foresee",
+                      "_blank"
+                    )
+                  }
                 >
                   GitHub
                 </Button>
