@@ -1,4 +1,3 @@
-
 export const HardwareLibrary = () => {
   const modules = [
     "FFT (Fast Fourier Transform)",
@@ -7,7 +6,7 @@ export const HardwareLibrary = () => {
     "SVM (Support Vector Machine)",
     "THR (Thresholding Block)",
     "TKEO (Teager-Kaiser Energy Operator)",
-    "AVG (Signal Averaging)"
+    "AVG (Signal Averaging)",
   ];
 
   return (
@@ -18,7 +17,8 @@ export const HardwareLibrary = () => {
             Open Hardware Library
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            FORESEE comes bundled with hardware implementations of commonly used neural processing Modules
+            FORESEE comes bundled with hardware implementations of commonly used
+            neural processing Modules
           </p>
         </div>
 
@@ -39,13 +39,52 @@ export const HardwareLibrary = () => {
           </div>
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="bg-gradient-to-r from-green-800/30 to-blue-800/30 backdrop-blur-sm border border-green-500/30 rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4">Community Contribution Welcome</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">
+              Community Contribution Welcome
+            </h3>
             <p className="text-gray-300 text-lg">
-              The library is open for community contribution—help us grow the ecosystem. 
-              We welcome your modules, improvements, and feedback to make FORESEE even better.
+              The library is open for community contribution—help us grow the
+              ecosystem. We welcome your modules, improvements, and feedback to
+              make FORESEE even better.
             </p>
+          </div>
+        </div> */}
+        {/* Design Philosophy */}
+        <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8 mb-12">
+          <h3 className="text-3xl font-bold text-white mb-6 text-center">
+            Design Philosophy
+          </h3>
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div>
+              <div className="text-4xl mb-3">🎯</div>
+              <h4 className="text-xl font-semibold text-white mb-2">
+                Simplicity
+              </h4>
+              <p className="text-gray-400">
+                Intuitive interface that doesn't sacrifice power for ease of use
+              </p>
+            </div>
+            <div>
+              <div className="text-4xl mb-3">🔄</div>
+              <h4 className="text-xl font-semibold text-white mb-2">
+                Interoperability
+              </h4>
+              <p className="text-gray-400">
+                Seamless integration between Python algorithms and Verilog
+                hardware
+              </p>
+            </div>
+            <div>
+              <div className="text-4xl mb-3">🌍</div>
+              <h4 className="text-xl font-semibold text-white mb-2">
+                Community
+              </h4>
+              <p className="text-gray-400">
+                Open-source ecosystem that grows with researcher contributions
+              </p>
+            </div>
           </div>
         </div>
       </div>

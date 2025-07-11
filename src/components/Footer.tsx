@@ -93,43 +93,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Design Philosophy */}
-        <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8 mb-12">
-          <h3 className="text-3xl font-bold text-white mb-6 text-center">
-            Design Philosophy
-          </h3>
-          <div className="grid md:grid-cols-3 gap-6 text-center">
-            <div>
-              <div className="text-4xl mb-3">🎯</div>
-              <h4 className="text-xl font-semibold text-white mb-2">
-                Simplicity
-              </h4>
-              <p className="text-gray-400">
-                Intuitive interface that doesn't sacrifice power for ease of use
-              </p>
-            </div>
-            <div>
-              <div className="text-4xl mb-3">🔄</div>
-              <h4 className="text-xl font-semibold text-white mb-2">
-                Interoperability
-              </h4>
-              <p className="text-gray-400">
-                Seamless integration between Python algorithms and Verilog
-                hardware
-              </p>
-            </div>
-            <div>
-              <div className="text-4xl mb-3">🌍</div>
-              <h4 className="text-xl font-semibold text-white mb-2">
-                Community
-              </h4>
-              <p className="text-gray-400">
-                Open-source ecosystem that grows with researcher contributions
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Final Message */}
         <div className="text-center border-t border-gray-700 pt-8">
           <p className="text-gray-300 text-lg mb-4">

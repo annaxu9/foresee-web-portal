@@ -22,6 +22,12 @@ export const Navbar = () => {
               Home
             </a>
             <a
+              href="#demo"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Demo
+            </a>
+            <a
               href="#features"
               className="text-gray-300 hover:text-white transition-colors"
             >
@@ -94,11 +100,18 @@ export const Navbar = () => {
                 Home
               </a>
               <a
+                href="#demo"
+                className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
+              >
+                Demo
+              </a>
+              <a
                 href="#features"
                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
               >
                 Features
               </a>
+
               <a
                 href="#team"
                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
