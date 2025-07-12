@@ -2,42 +2,42 @@ const teamMembers = [
   {
     name: "Aasmaan Yadav",
     university: "Duke University",
-    image: "public/team/shaan.jpeg" // Adjust filename as needed
+    image: "/team/shaan.jpeg" // Adjust filename as needed
   },
   {
     name: "Fernando Cuello Garcia",
     university: "Yale University",
-    image: "public/team/fernando.jpeg"
+    image: "/team/fernando.jpeg"
   },
   {
     name: "Alejandro Gonzalez",
     university: "Yale University",
-    image: "public/team/alejandro_gonzalez.jpeg"
+    image: "/team/alejandro_gonzalez.jpeg"
   },
   {
     name: "Bernardo Eilert Trevisan",
     university: "Yale University",
-    image: "public/team/Bernardo-Trevisan.jpg"
+    image: "/team/Bernardo-Trevisan.jpg"
   },
   {
     name: "Muhammed Ugur",
     university: "Yale University",
-    image: "public/team/muhammed.jpg"
+    image: "/team/muhammed.jpg"
   },
   {
     name: "Anna Xu",
     university: "Yale University",
-    image: "public/team/anna_xu.JPG"
+    image: "/team/anna_xu.JPG"
   },
   {
     name: "Raghavendra Pradyumna Pothukuchi",
     university: "Yale University",
-    image: "public/team/Pothukuchi.jpg"
+    image: "/team/Pothukuchi.jpg"
   },
   {
     name: "Abhishek Bhuttacharjee",
     university: "Yale University",
-    image: "public/team/abhishek.jpg"
+    image: "/team/abhishek.jpg"
   }
 ];
 
