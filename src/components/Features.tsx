@@ -6,9 +6,10 @@ export const Features = () => {
       icon: "🧩",
     },
     {
-      title: "Dual-Specification",
-      description: "Write Modules in either Python or Verilog—or both.",
-      icon: "⚡",
+      title: "Hardware-Software Co-Design",
+      description:
+        "Seamlessly translate between hardware and software specifications with bidirectional conversion.",
+      icon: "↔️",
     },
     {
       title: "Integrated Analysis",
@@ -25,6 +26,12 @@ export const Features = () => {
       title: "Flexible User Interface",
       description: "Use FORESEE via an intuitive GUI or command line.",
       icon: "💻",
+    },
+    {
+      title: "FPGA Deployment",
+      description:
+        "Deploy your designs directly to FPGA hardware for real-world testing and validation.",
+      icon: "🔧",
     },
   ];
 

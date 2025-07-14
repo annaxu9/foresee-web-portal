@@ -43,7 +43,7 @@ export const Hero = () => {
           <Button
             variant="outline"
             size="lg"
-            className="border-gray-400 text-gray600 hover:bg-gray-600 hover:text-gray-300 px-8 py-4 text-lg rounded-full transition-all duration-300"
+            className="border-gray-400 text-gray-600 hover:bg-gray-600 hover:text-gray-300 px-8 py-4 text-lg rounded-full transition-all duration-300"
             onClick={() =>
               window.open("https://github.com/bci-foresee/foresee", "_blank")
             }
@@ -53,7 +53,10 @@ export const Hero = () => {
           <Button
             variant="outline"
             size="lg"
-            className="border-gray-400 text-gray-300 hover:bg-gray-800 px-8 py-4 text-lg rounded-full transition-all duration-300"
+            className="border-gray-400 text-gray-600 hover:bg-gray-600 hover:text-gray-300 px-8 py-4 text-lg rounded-full transition-all duration-300"
+            onClick={() =>
+              window.open("https://embc.embs.org/2025/", "_blank")
+            }
           >
             Read Paper (IEEE)
           </Button>
