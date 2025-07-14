@@ -119,7 +119,15 @@ export const TeamSection = () => {
               >
                 Contact Us
               </button>
-              <button className="border border-gray-400 text-gray-300 hover:bg-gray-800 px-6 py-3 rounded-full font-semibold transition-all duration-300">
+              <button
+                className="border border-gray-400 text-gray-300 hover:bg-gray-800 px-6 py-3 rounded-full font-semibold transition-all duration-300"
+                onClick={() =>
+                  window.open(
+                    "https://www.cs.yale.edu/homes/abhishek/",
+                    "_blank"
+                  )
+                }
+              >
                 View Publications
               </button>
             </div>
