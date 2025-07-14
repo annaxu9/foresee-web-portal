@@ -68,24 +68,26 @@ export const TeamSection = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-700/50 to-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-2xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300"
+              className="bg-gradient-to-br from-gray-700/50 to-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-2xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open(member.link, "_blank");
+              }}
             >
               <div className="mb-4">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-gradient-to-r from-blue-500 to-purple-500 shadow-lg"
-                  onClick={() => {
-                    // Handle image click
-                    window.open(member.link, "_blank");
-                  }}
-                  onError={(e) => {
-                    // Fallback to a placeholder if image doesn't load
-                    const target = e.target as HTMLImageElement;
-                    target.src =
-                      "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iNjQiIGZpbGw9IiM0QzFEOTUiLz4KPHN2ZyB4PSIzMiIgeT0iMzIiIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAxMmM0IDAgOC0yIDgtNnMtNC02LTgtNi04IDItOCA2IDQgNiA4IDZ6bTAgMmMtNiAwLTEyIDMtMTIgOXYzaDI0di0zYzAtNi02LTktMTItOXoiLz4KPHN2Zz4KPHN2Zz4=";
-                  }}
-                />
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden  shadow-lg ">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover hover:opacity-80 transition-opacity duration-200"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src =
+                        "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iNjQiIGZpbGw9IiM0QzFEOTUiLz4KPHN2ZyB4PSIzMiIgeT0iMzIiIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAxMmM0IDAgOC0yIDgtNnMtNC02LTgtNi04IDItOCA2IDQgNiA4IDZ6bTAgMmMtNiAwLTEyIDMtMTIgOXYzaDI0di0zYzAtNi02LTktMTItOXoiLz4KPHN2Zz4KPHN2Zz4=";
+                    }}
+                  />
+                </div>
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
                 {member.name}

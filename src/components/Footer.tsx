@@ -13,29 +13,6 @@ export const Footer = () => {
             Download FORESEE today and redefine how neural signal pipelines are
             developed.
           </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
-            >
-              Download
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-gray-400 text-gray-300 hover:bg-gray-800 px-8 py-4 text-lg rounded-full"
-            >
-              Documentation
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-gray-400 text-gray-300 hover:bg-gray-800 px-8 py-4 text-lg rounded-full"
-            >
-              GitHub
-            </Button>
-          </div>
         </div>
 
         {/* License & Citation Section */}
